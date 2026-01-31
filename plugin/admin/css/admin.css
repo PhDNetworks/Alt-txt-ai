@@ -1,0 +1,54 @@
+/**
+ * Alt Text AI — Admin styles
+ */
+
+.atai-generate-btn {
+	margin: 4px 0 !important;
+	background: #2271b1 !important;
+	color: #fff !important;
+	border-color: #2271b1 !important;
+}
+
+.atai-generate-btn:hover {
+	background: #135e96 !important;
+	border-color: #135e96 !important;
+}
+
+.atai-generate-btn:disabled {
+	opacity: 0.6;
+	cursor: wait !important;
+}
+
+.atai-status {
+	display: inline-block;
+	margin-left: 8px;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.atai-status.atai-success {
+	color: #00a32a;
+}
+
+.atai-status.atai-error {
+	color: #d63638;
+}
+
+/* Bulk processing */
+#atai-bulk-modal {
+	padding: 16px 20px;
+}
+
+#atai-bulk-modal h3 {
+	margin-top: 0;
+}
+
+#atai-bulk-log {
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+#atai-bulk-log div {
+	padding: 2px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
